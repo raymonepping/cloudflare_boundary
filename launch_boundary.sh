@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd /Users/raymon.epping/Documents/VSC/HashiCorp/Boundary/ || exit 1
+cd /Your/Folder/Boundary/ || exit 1
 
 # --- Colors ---
 GREEN="\033[0;32m"
@@ -9,7 +9,7 @@ YELLOW="\033[1;33m"
 CYAN="\033[0;36m"
 RED="\033[1;31m"
 RESET="\033[0m"
-LOG_DIR="/Users/raymon.epping/Documents/VSC/Personal/Sportclub_Reeuwijk/logs"
+LOG_DIR="/Your/Folder/logs"
 LOG_FILE="$LOG_DIR/boundary_worker.log"
 CONFIG_FILE=""
 FORCE=false
