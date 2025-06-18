@@ -3,12 +3,12 @@ set -e
 
 OUTPUT_FILE="cloudflare_tunnels.md"
 
-WORKER_HCL_TEMPLATE="/Users/raymon.epping/Documents/VSC/HashiCorp/Boundary/worker_template.hcl"
-GENERATED_WORKER_HCL="/Users/raymon.epping/Documents/VSC/HashiCorp/Boundary/local_worker.hcl"
+WORKER_HCL_TEMPLATE="/Your/Folder/Boundary/worker_template.hcl"
+GENERATED_WORKER_HCL="/Your/Folder/Boundary/local_worker.hcl"
 
 # WORKER_HCL_TEMPLATE="worker_template.hcl"
 # GENERATED_WORKER_HCL="worker.hcl"
-LOG_DIR="/Users/raymon.epping/Documents/VSC/Personal/Sportclub_Reeuwijk/logs"
+LOG_DIR="/Your/Folder/logs"
 VAULT_LOG="$LOG_DIR/cloudflare_vault.log"
 BOUNDARY_LOG="$LOG_DIR/cloudflare_boundary.log"
 PIDS_FILE="cloudflare_pids.txt"
